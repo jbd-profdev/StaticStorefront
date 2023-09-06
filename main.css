@@ -1,0 +1,45 @@
+body{
+    background-color: green;
+    background-image: url(./assets/masai-mara-national-reserve.jpeg);
+}
+
+.hdr a{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#ttl{
+    text-align: center;
+    color: yellow;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#fdbck{
+    background-color: black;
+    color: aqua;
+    opacity: 65%;
+}
+
+#cmmtbx{
+    height: 100px;
+}
+
+#ftr{
+    position: relative;
+    bottom: 0%;
+    width: 100%;
+    height: 1%;
+    background-color: lightgray;
+    color: black;
+    text-align: center;
+    display: inline-block;
+    list-style: none;
+}
+#ftr ul li{
+    display: inline-block;
+    padding: 0 .7em 0 0;
+}
+#ftr ul li::before{
+    content: "- ";
+    display: inline-block;
+}

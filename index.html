@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="./main.css">
+    <title>Static Storefront</title>
+</head>
+<body>
+
+    <header class="hdr">
+        <nav class="navbar bg-info">
+            <div class="container-fluid">
+              <a class="navbar-brand text-center" href="#">
+                <img src="./assets/globe.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                Store of Exotic Animals!
+              </a>
+              <form class="d-flex" role="search">
+                <button class="btn btn-primary mx-1" type="login">Cart</button>
+                <button class="btn btn-primary mx-1" type="login">Login</button>
+              </form>
+            </div>
+        </nav>
+    </header>
+
+    <section class="row justify-sm-content-center justify-content-evenly">
+        <section>
+            <h1 id="ttl">Enjoy perusing our unique selection of some of the rarest creatures on earth</h1>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="./assets/elephant.jpg" class="card-img-top" alt="elephant">
+                    <div class="card-body">
+                      <h5 class="card-title">Elephant</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem beatae facere quidem, voluptatum quos quae alias amet! Accusantium provident asperiores, eaque placeat fugit soluta, maiores sunt quia cumque dicta quo.</p>
+                      <a href="#" class="btn btn-danger">Add to Cart</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                      <img src="./assets/cheetah.jpeg" class="card-img-top" alt="cheetah">
+                      <div class="card-body">
+                        <h5 class="card-title">Cheetah</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque minima voluptatum iste. Provident dolor optio ratione quaerat officia fugiat exercitationem tenetur vitae magni necessitatibus aut amet, at, id eum! Molestias.</p>
+                        <a href="#" class="btn btn-danger">Add to Cart</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100">
+                      <img src="./assets/tiger.jpeg" class="card-img-top" alt="tiger">
+                      <div class="card-body">
+                        <h5 class="card-title">Tiger</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error non ex quis iste numquam aspernatur, earum blanditiis dolorem officia saepe, eos ut architecto et eum sed amet enim cumque? Optio.</p>
+                        <a href="#" class="btn btn-danger">Add to Cart</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100">
+                      <img src="./assets/lion.jpg" class="card-img-top" alt="lion">
+                      <div class="card-body">
+                        <h5 class="card-title">Lion</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis omnis, iste esse consectetur quas tempora illum porro consequuntur aspernatur nesciunt. Ipsum veritatis officia dolorem. Ab qui debitis possimus impedit nobis!</p>
+                        <a href="#" class="btn btn-danger">Add to Cart</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100">
+                      <img src="./assets/panther.jpeg" class="card-img-top" alt="panther">
+                      <div class="card-body">
+                        <h5 class="card-title">Panther</h5>
+                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat dolor mollitia autem itaque esse? Adipisci facere voluptatibus repudiandae eum debitis deserunt laudantium beatae voluptate asperiores libero, nulla iste animi ratione?</p>
+                        <a href="#" class="btn btn-danger">Add to Cart</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100">
+                      <img src="./assets/panda.jpg" class="card-img-top" alt="panda">
+                      <div class="card-body">
+                        <h5 class="card-title">Panda</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro temporibus doloremque, modi, molestias, rerum eaque omnis quod voluptatum nulla quibusdam quis eligendi. Perspiciatis veritatis ullam, unde quae magni maiores perferendis.</p>
+                        <a href="#" class="btn btn-danger">Add to Cart</a>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+        </section>
+    </section>
+
+    <form id="fdbck">
+        <h6>Feedback form:</h6>
+        <div>
+            <input type="email" placeholder="Email" name="email">
+        </div>
+        <div>
+            <input type="tel" placeholder="Phone number" name="phoneNumber">
+        </div>
+        <div>
+            <input id="cmmtbx" type="text" placeholder="Comment box" name="commentBox">
+        </div>
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+
+    <footer id="ftr">
+        <span>&copy;2023</span>
+        <ul>
+            <li><a href="#">Site Navigation</a></li>
+            <li><a href="#">Affiliated Vendors</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
+
+<!-- 
+    top nav bar
+        buttons?, logo
+    body
+        cards
+            images
+            text
+            price
+            buttons
+        feedback form
+    footer
+        links
+ -->
